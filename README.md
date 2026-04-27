@@ -6,7 +6,7 @@ QPainter-rendered terminal, full GMCP/MSDP protocol support, native zMUD scripti
 
 ![Windows](https://img.shields.io/badge/platform-Windows-blue)
 ![Python](https://img.shields.io/badge/python-3.14-green)
-![PyQt6](https://img.shields.io/badge/UI-PyQt6-orange)
+![PySide6](https://img.shields.io/badge/UI-PyQt6-orange)
 ![License](https://img.shields.io/badge/license-free-brightgreen)
 
 ---
@@ -192,6 +192,7 @@ VMud is designed to connect to any MUD server. GMCP-enabled MUDs get the full ex
 ## License
 
 Free to use. Built with love for the MUD community.
+
 PySide6 (Qt for Python) - LGPL v3
 https://www.qt.io/qt-for-python
 This is the GUI framework that makes vMUD work.
