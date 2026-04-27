@@ -195,7 +195,10 @@ Free to use. Built with love for the MUD community.
 
 PySide6 (Qt for Python) - LGPL v3
 https://www.qt.io/qt-for-python
-This is the GUI framework that makes vMUD work.
+This is the GUI framework that makes vMUD work. vMUD uses PySide6 (Qt for Python), 
+which is licensed under LGPL v3 and explicitly intended by Qt for use in proprietary
+applications. The Qt libraries are dynamically linked, unmodified, and included as 
+separate shared libraries, which satisfies LGPL requirements
 
 Pillow - MIT
 https://python-pillow.github.io
