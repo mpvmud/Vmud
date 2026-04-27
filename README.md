@@ -195,21 +195,27 @@ Free to use. Built with love for the MUD community.
 PySide6 (Qt for Python) - LGPL v3
 https://www.qt.io/qt-for-python
 This is the GUI framework that makes vMUD work.
+
 Pillow - MIT
 https://python-pillow.github.io
 I use this for image handling with the map tiles.
+
 pyspellchecker - MIT
 https://github.com/barrust/pyspellchecker
 This handles the spell checking on the input line.
+
 Lupa - MIT
 https://github.com/scoder/lupa
 This is the Lua scripting engine that lets users write their own triggers and scripts.
+
 pypresence - MIT
 https://github.com/qwertyquerty/pypresence
 I use this for Discord Rich Presence so people can see you're playing.
+
 Px437 IBM Model3x Alt4 - CC BY-SA 4.0
 https://int10h.org/oldschool-pc-fonts/
 This is the terminal font. It was created by VileR as part of "The Ultimate Oldschool PC Font Pack."
+
 PyInstaller - GPL v2 with bootloader exception
 https://pyinstaller.org
 I use this to build the standalone .exe. The bootloader exception means the GPL doesn't touch vMUD itself.
