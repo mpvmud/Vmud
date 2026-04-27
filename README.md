@@ -238,9 +238,12 @@ By downloading, installing, or using vMUD you agree to the following.
 ## What you can't do:
 - Sell vMUD or any modified version of it
 - Reverse engineer, decompile, or disassemble the binary
-- Redistribute the source code if you somehow get access to it
+- Access, copy, distribute, or publish any source code of vMUD without permission
 - Bundle it with other software without my permission
 - Use it to attack, disrupt, or interfere with any MUD server
+
+## Termination
+If you violate these terms, your right to use vMUD is automatically revoked.
 
 ## No warranty
 vMUD is provided as-is. I built it because I wanted a better MUD client and decided to share it. 
@@ -253,8 +256,12 @@ vMUD uses open source libraries listed in LICENSES.md. Those libraries have thei
 which still apply. The fonts, icons, and tile art bundled with vMUD are either original work or
 used under their respective licenses as documented.
 
+vMUD may integrate with third-party services such as Discord Rich Presence.
+This feature only updates your activity status and does not access personal
+messages, account data, or authentication tokens.
+
 ## I can update this
 I might update this EULA as the project grows. Continued use of vMUD after changes means you accept
 the updated terms. I'll note any changes in the release notes.
 
-Copywrite 2026 - All rights reserved.
+Copyright 2026 - All rights reserved.
