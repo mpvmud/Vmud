@@ -7,7 +7,7 @@ QPainter-rendered terminal, full GMCP/MSDP protocol support, native zMUD scripti
 ![Windows](https://img.shields.io/badge/platform-Windows-blue)
 ![Python](https://img.shields.io/badge/python-3.14-green)
 ![PySide6](https://img.shields.io/badge/UI-PySide6-orange)
-![License](https://img.shields.io/badge/license-All-rights-reserved-brightgreen)
+![License](https://img.shields.io/badge/license-Allrightsreserved-brightgreen)
 
 ---
 
