@@ -191,38 +191,7 @@ VMud is designed to connect to any MUD server. GMCP-enabled MUDs get the full ex
 
 ## License
 
-Free to use. Built with love for the MUD community.
-
-PySide6 (Qt for Python) - LGPL v3
-https://www.qt.io/qt-for-python
-This is the GUI framework that makes vMUD work. vMUD uses PySide6 (Qt for Python), 
-which is licensed under LGPL v3 and explicitly intended by Qt for use in proprietary
-applications. The Qt libraries are dynamically linked, unmodified, and included as 
-separate shared libraries, which satisfies LGPL requirements
-
-Pillow - MIT
-https://python-pillow.github.io
-I use this for image handling with the map tiles.
-
-pyspellchecker - MIT
-https://github.com/barrust/pyspellchecker
-This handles the spell checking on the input line.
-
-Lupa - MIT
-https://github.com/scoder/lupa
-This is the Lua scripting engine that lets users write their own triggers and scripts.
-
-pypresence - MIT
-https://github.com/qwertyquerty/pypresence
-I use this for Discord Rich Presence so people can see you're playing.
-
-Px437 IBM Model3x Alt4 - CC BY-SA 4.0
-https://int10h.org/oldschool-pc-fonts/
-This is the terminal font. It was created by VileR as part of "The Ultimate Oldschool PC Font Pack."
-
-PyInstaller - GPL v2 with bootloader exception
-https://pyinstaller.org
-I use this to build the standalone .exe. The bootloader exception means the GPL doesn't touch vMUD itself.
+All Rights Researved. Built with love for the MUD community.
 
 # vMUD EULA
 
@@ -264,4 +233,4 @@ messages, account data, or authentication tokens.
 I might update this EULA as the project grows. Continued use of vMUD after changes means you accept
 the updated terms. I'll note any changes in the release notes.
 
-Copyright 2026 - All rights reserved.
+Copyright 2026 - Kilith
