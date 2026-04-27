@@ -223,3 +223,38 @@ This is the terminal font. It was created by VileR as part of "The Ultimate Olds
 PyInstaller - GPL v2 with bootloader exception
 https://pyinstaller.org
 I use this to build the standalone .exe. The bootloader exception means the GPL doesn't touch vMUD itself.
+
+# vMUD EULA
+
+By downloading, installing, or using vMUD you agree to the following.
+
+## What you can do:
+- Use vMUD for free on as many computers as you want
+- Connect to any MUD server with it
+- Create and share map packs, triggers, aliases, and scripts
+- Stream, record, or screenshot vMUD in use
+- Talk about it, review it, recommend it or trash it
+
+## What you can't do:
+- Sell vMUD or any modified version of it
+- Reverse engineer, decompile, or disassemble the binary
+- Redistribute the source code if you somehow get access to it
+- Bundle it with other software without my permission
+- Use it to attack, disrupt, or interfere with any MUD server
+
+## No warranty
+vMUD is provided as-is. I built it because I wanted a better MUD client and decided to share it. 
+I do my best to keep it working and fix bugs but I make no guarantees. If something breaks, let 
+me know and I will try to fix it. I am not responsible for any lost data, crashed MUD sessions, 
+or anything else that goes wrong.
+
+## Third-party stuff
+vMUD uses open source libraries listed in LICENSES.md. Those libraries have their own licenses 
+which still apply. The fonts, icons, and tile art bundled with vMUD are either original work or
+used under their respective licenses as documented.
+
+## I can update this
+I might update this EULA as the project grows. Continued use of vMUD after changes means you accept
+the updated terms. I'll note any changes in the release notes.
+
+Copywrite 2026 - All rights reserved.
