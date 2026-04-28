@@ -13,7 +13,7 @@ QPainter-rendered terminal, full GMCP/MSDP protocol support, native zMUD scripti
 
 ## About
 
-VMud is a feature-rich MUD client designed for serious players. Works with any MUD, with enhanced GMCP integration for Void of Reality. Now built with PySide6, featuring pixel-perfect block character rendering, dual scripting engines (zMUD + Lua), and real-time game state panels.
+VMud is a feature-rich MUD client designed for all MUD players. Connects with any MUD, uses enhanced GMCP integration for Void of Reality. Now built with PySide6, featuring pixel-perfect block character rendering, dual scripting engines (zMUD + Lua), and real-time game state panels.
 
 ---
 
@@ -24,7 +24,7 @@ VMud is a feature-rich MUD client designed for serious players. Works with any M
 - **Full VT100 emulation** — SGR colors, cursor movement, scroll regions, save/restore
 - **Split-screen mode** (Ctrl+Z) — frozen scrollback on top, live terminal on bottom, just like zMUD
 - **Bundled CP437 font** (Px437 IBM Model3x Alt4) — authentic DOS-era MUD look
-- **Customizable ANSI palette** — all 16 colors editable in preferences
+- **Customizable ANSI palette** — all 16 colors editable in preferences (256 is not supported at this time)
 - **Timestamps** — optional per-line timestamps on prompt lines
 
 ### Protocol Support
@@ -43,11 +43,13 @@ VMud is a feature-rich MUD client designed for serious players. Works with any M
 - **Map** — tile-based terrain map from GMCP room data
 
 ### Mapping
-- **GMCP mapper** — builds map from room.info packets, 7x7 viewport with BFS rendering
-- **Screen-scraping automapper** — for MUDs without GMCP, detects rooms from text patterns
-- **18 terrain types** with distinct tile colors
+**NOTE** This will not work on 100% of all muds and this client has never claimed to. What it can do is listed below:
+- **GMCP mapper** — builds map from room.info packets, 11x11 on muds that send GMCP room.info viewport with BFS rendering
+- **Screen-scraping automapper** — for MUDs without GMCP, detects rooms from text patterns in a 21x21 grid
+- **18 terrain types** with distinct tile colors. You can upload map packs if your mud has more than 18 terrains.
 - **Ghost rooms** — unvisited exits shown as brown markers
 - **Right-click sector editing** — manually correct terrain types on the map
+- **One way exits** - The Screen-Scraper will catch if there are 1 way rooms and delete links and exits that are not there.
 
 ### zMUD Scripting (Full Compatibility)
 Native zMUD command interpreter — not a translator, a real runtime. Users migrating from zMUD can keep writing in familiar syntax.
@@ -127,6 +129,7 @@ Full sandboxed Lua VM running alongside zMUD scripting — use whichever you pre
 - **Customizable fonts** — separate terminal and input font settings
 - **Customizable colors** — full 16-color ANSI palette editor
 - **Layout persistence** — splitter positions, window size, equipment window position all saved
+- **
 
 ---
 
@@ -144,10 +147,10 @@ Run the installer — it installs to `C:\VMud` by default (no admin required).
 
 ## Building from Source
 
-**Requirements:** Python 3.12+, PyQt6, lupa (optional, for Lua scripting)
+**Requirements:** Python 3.12+, PySide6, lupa (optional, for Lua scripting)
 
 ```bash
-pip install PyQt6 lupa pyspellchecker pyinstaller
+pip install PySide6 lupa pyspellchecker pyinstaller
 
 cd vor_client
 
@@ -175,7 +178,7 @@ iscc installer/VMudSetup.iss
 
 ---
 
-## Works With Any MUD
+## Works to connect With Any MUD
 
 VMud is designed to connect to any MUD server. GMCP-enabled MUDs get the full experience (vitals, map, group, equipment panels). Non-GMCP MUDs still get triggers, aliases, scripting, automapper, and everything else.
 
